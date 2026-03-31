@@ -171,17 +171,29 @@ Using Microsoft Fabric’s unified experience, this case study walks through the
 <img src="https://github.com/user-attachments/assets/b4ae4c8e-74aa-46e9-9bbb-889da4eb9b85" width="100%" alt="Screenshot 2026-03-31 110443"/>
 
 ### 3.2 Reporting 
-
-<img src="https://github.com/user-attachments/assets/855cbc8f-5a39-42af-b6bd-cc811bd59bdb" width="100%" alt="Screenshot 2026-03-31 145213"  />
-
-
 #### - Click New Report from the Lakehouse to open Power BI Report Builder. Build dashboards and visuals:
 - Trip trends by date
 - Passenger count distribution
 - Revenue by vendor or zone
 - Map of pickup/dropoff locations
 
+<img src="https://github.com/user-attachments/assets/855cbc8f-5a39-42af-b6bd-cc811bd59bdb" width="100%" alt="Screenshot 2026-03-31 145213"  />
 
+Executive Summary – NYC Yellow Taxi Analytics Report (2025)
+
+The report provides a comprehensive analysis of NYC yellow taxi operations across 2025, delivering key insights into trip volume, revenue performance, customer behaviour, and operational trends. Overall, the dataset reflects strong demand with 36 million total trips generating approximately $1.02 billion in revenue, indicating a high-volume, high-value transportation network. Trip and revenue trends show clear seasonality, with noticeable peaks in mid-year and later months, suggesting increased demand driven by external factors such as tourism and urban activity cycles. While trip volume and revenue generally move together, variations between the two indicate differences in trip value, highlighting opportunities for pricing optimisation and revenue maximisation strategies.
+
+Vendor analysis reveals a high concentration of revenue among a single provider (Curb Mobility), significantly outperforming other vendors. This suggests potential market dominance or operational efficiency advantages, while also indicating a possible dependency risk that could impact service resilience if not diversified. Customer payment behaviour is heavily skewed toward card payments (over 80%), confirming a strong shift toward digital transactions. This presents opportunities to further enhance cashless systems, reduce operational friction, and improve transaction security, while deprioritising cash-based processes.
+
+Spatial and operational insights show that trip demand is concentrated in key pickup zones, reinforcing the importance of geographic optimisation in fleet positioning. Additionally, hourly trip distribution highlights predictable peak periods aligned with commuting and evening activity, enabling more effective resource planning, driver allocation, and dynamic pricing strategies. From a customer behaviour perspective, the average fare ($19.12) and average trip distance (3.56 miles) indicate a predominance of short urban trips, while an average tip rate of 18.82% reflects generally positive service experiences and consistent driver earnings potential.
+
+🎯 Key Business Impact
+- Revenue Optimisation: Identify high-value periods and adjust pricing strategies to maximise profitability
+- Operational Efficiency: Align driver supply with peak demand hours and high-volume locations
+- Strategic Risk Management: Reduce over-reliance on dominant vendors through diversification
+- Customer Experience: Enhance digital payment systems to match user preferences
+- Data-Driven Planning: Leverage seasonal and behavioural trends for forecasting and capacity planning
+- Performance Management: Use KPIs (revenue, trips, fare, tips) to continuously monitor and improve operations
 
 
 
