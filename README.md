@@ -57,12 +57,12 @@ related to transportation and urban mobility.
 # 2. Analysis
 ### Tools and Technology Used
 #### Component     -     Tool Used
-- Data Ingestion;  Microsoft Data Factory (Copy Activity)
-- Data Storage;   OneLake, Lakehouse
-- Data Transformation;  Spark Notebooks, SQL in Fabric
-- Data Modeling;   SQL Views, Data Warehouse
-- Visualization;  Power BI
-- Platform;  Microsoft Fabric
+- Data Ingestion;-  Microsoft Data Factory (Copy Activity)
+- Data Storage;-   OneLake, Lakehouse
+- Data Transformation;-  Spark Notebooks, SQL in Fabric
+- Data Modeling;-   SQL Views, Data Warehouse
+- Visualization;-  Power BI
+- Platform;-  Microsoft Fabric
 
 
 Using Microsoft Fabric’s unified experience, this case study walks through the full analytics lifecycle:
