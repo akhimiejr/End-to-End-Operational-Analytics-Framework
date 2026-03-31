@@ -112,7 +112,7 @@ Using Microsoft Fabric’s unified experience, this case study walks through the
 
 <img src="https://github.com/user-attachments/assets/3c4d6db1-3df4-4c38-b49e-f5242f61f1fb" width="100%" alt="Screenshot 2026-03-30 145739" />
 
-## PROJECT TASK 4
+## 2.6 PROJECT TASK 4
 ### - Use SQL Analytics Endpoint or Lakehouse SQL Editor to:
 - Run queries for metrics like average fare, busiest pickup zones, etc.
 - Create views or summarized tables for Power BI use.
@@ -165,6 +165,21 @@ Using Microsoft Fabric’s unified experience, this case study walks through the
 
 - Insight : The identification of trips with negative or suspicious fare values highlights potential data quality or system issues. These anomalies could result from refunds, input errors, or processing inconsistencies. Addressing these records is essential to ensure accurate reporting and maintain trust in the data, making data validation and governance a critical component of the analytical process.
 
+## 3. Microsoft Power BI Report
+### 3.1 Data Modelling 
+
+<img src="https://github.com/user-attachments/assets/b4ae4c8e-74aa-46e9-9bbb-889da4eb9b85" width="100%" alt="Screenshot 2026-03-31 110443"/>
+
+### 3.2 Reporting 
+
+<img src="https://github.com/user-attachments/assets/855cbc8f-5a39-42af-b6bd-cc811bd59bdb" width="100%" alt="Screenshot 2026-03-31 145213"  />
+
+
+#### - Click New Report from the Lakehouse to open Power BI Report Builder. Build dashboards and visuals:
+- Trip trends by date
+- Passenger count distribution
+- Revenue by vendor or zone
+- Map of pickup/dropoff locations
 
 
 
