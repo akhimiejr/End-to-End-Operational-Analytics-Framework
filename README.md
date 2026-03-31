@@ -81,15 +81,44 @@ Using Microsoft Fabric’s unified experience, this case study walks through the
 - Visualization;-  Power BI
 - Platform;-  Microsoft Fabric
 
+## 2.3 PROJECT TASK 1
+#### - Create a new workspace for the project: NYC Yellow Taxi Analysis. Inside the workspace::
+- Create a Lakehouse to act as your central storage and semantic layer.
+- Download the NYC Yellow Taxi dataset from the NYC Open Data or TLC website.
+- Upload the dataset to the Lakehouse (under the Files or Tables section).
+- Ensure it's properly structured for query use (CSV or Delta table).
 
-Using Microsoft Fabric’s unified experience, this case study walks through the full analytics lifecycle:
-•Data Ingestion & Preparation
-• Download public NYC Yellow Taxi trip data
-• Upload raw files into Microsoft Fabric's One Lake Lakehouse
-• Use Data Engineering (Spark Notebooks) for data cleaning and transformation
-•Data Storage & Modeling
-• Structure data into bronze (raw), silver (cleaned), and gold (analytics-ready) layers
-• Create SQL models and views in Lakehouse & Data Warehouse
-•Analytics & Visualization
-• Write SQL queries to explore trip patterns, revenue, and usage trends
-• Build Power BI dashboards that highlight KPIs, time trends, and location-based insights
+<img src="https://github.com/user-attachments/assets/0e6a29a7-03ae-47a4-bc20-f53e28de850c" width="100%" alt="Screenshot 2026-03-30 120226" />
+
+## 2.4 PROJECT TASK 2
+### - In the Power BI portal, switch to the Microsoft Fabric experience. Make sure the following workloads are enabled:
+- Lake House
+- Notebook
+- Data Engineering(Data Pipeline)
+- Data Factory
+- Power BI Reports
+
+<img src="https://github.com/user-attachments/assets/495f208a-b66f-4364-bb9a-e86b5cec6a1a"  width="100%" alt="Screenshot 2026-03-31 162220" />
+
+## 2.5 PROJECT TASK 3
+### - Use Notebooks in Data Engineering to clean, filter, and transform raw data. ###Perform tasks like:
+- Converting string to datetime
+- Enriching the data
+- Replacing Coded Columns with Text
+- Handling nulls and outliers
+- Save the transformed data as a new table in the Lakehouse.
+
+<img src="https://github.com/user-attachments/assets/3b0379f4-d9be-4303-9ae3-aab5524d65a2"  width="100%" alt="Screenshot 2026-03-30 123523" />
+
+
+
+
+
+
+
+
+
+
+
+
+
