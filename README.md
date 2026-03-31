@@ -179,7 +179,7 @@ Using Microsoft Fabric’s unified experience, this case study walks through the
 
 <img src="https://github.com/user-attachments/assets/855cbc8f-5a39-42af-b6bd-cc811bd59bdb" width="100%" alt="Screenshot 2026-03-31 145213"  />
 
-Executive Summary – NYC Yellow Taxi Analytics Report (2025)
+# Executive Summary – NYC Yellow Taxi Analytics Report (2025)
 
 The report provides a comprehensive analysis of NYC yellow taxi operations across 2025, delivering key insights into trip volume, revenue performance, customer behaviour, and operational trends. Overall, the dataset reflects strong demand with 36 million total trips generating approximately $1.02 billion in revenue, indicating a high-volume, high-value transportation network. Trip and revenue trends show clear seasonality, with noticeable peaks in mid-year and later months, suggesting increased demand driven by external factors such as tourism and urban activity cycles. While trip volume and revenue generally move together, variations between the two indicate differences in trip value, highlighting opportunities for pricing optimisation and revenue maximisation strategies.
 
