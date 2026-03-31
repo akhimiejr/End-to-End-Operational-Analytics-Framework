@@ -55,9 +55,13 @@ related to transportation and urban mobility.
 - VendorID: A code indicating the TPEP provider that provided the record. 1 = Creative Mobile Technologies, LLC;, 2 = Curb Mobility, LLC;, 6 = Myle Technologies Inc; 7 = Helix.
 
 # 2. Analysis
+# 2.1 END TO END WORK FLOW
+
+<img src="https://github.com/user-attachments/assets/1dbd3327-6466-41d4-8bb1-e72b10a3687c" width="100%" alt="Screenshot 2026-03-31 155702" />
+
 ### Tools and Technology Used
 #### Component     -     Tool Used
-- Data Ingestion;-  Microsoft Data Factory (Copy Activity)
+- Data Ingestion;-  Microsoft Data Factory 
 - Data Storage;-   OneLake, Lakehouse
 - Data Transformation;-  Spark Notebooks, SQL in Fabric
 - Data Modeling;-   SQL Views, Data Warehouse
