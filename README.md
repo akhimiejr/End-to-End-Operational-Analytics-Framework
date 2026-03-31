@@ -101,7 +101,7 @@ Using Microsoft Fabric’s unified experience, this case study walks through the
 <img src="https://github.com/user-attachments/assets/495f208a-b66f-4364-bb9a-e86b5cec6a1a"  width="100%" alt="Screenshot 2026-03-31 162220" />
 
 ## 2.5 PROJECT TASK 3
-### - Use Notebooks in Data Engineering to clean, filter, and transform raw data. ###Perform tasks like:
+### - Use Notebooks in Data Engineering to clean, filter, and transform raw data. Perform tasks like:
 - Converting string to datetime
 - Enriching the data
 - Replacing Coded Columns with Text
@@ -110,12 +110,60 @@ Using Microsoft Fabric’s unified experience, this case study walks through the
 
 <img src="https://github.com/user-attachments/assets/3b0379f4-d9be-4303-9ae3-aab5524d65a2"  width="100%" alt="Screenshot 2026-03-30 123523" />
 
+<img src="https://github.com/user-attachments/assets/3c4d6db1-3df4-4c38-b49e-f5242f61f1fb" width="100%" alt="Screenshot 2026-03-30 145739" />
 
+## PROJECT TASK 4
+### - Use SQL Analytics Endpoint or Lakehouse SQL Editor to:
+- Run queries for metrics like average fare, busiest pickup zones, etc.
+- Create views or summarized tables for Power BI use.
 
+#### Question 1 : What is the total number of trips by month?
 
+<img src="https://github.com/user-attachments/assets/08e2c313-8cf5-4f2e-a1f9-2a203aaff89c" width="100%" alt="Screenshot 2026-03-30 161452" />
 
+- Insight : The monthly trip analysis shows clear variation in demand, indicating strong seasonality in taxi usage. Certain months experience significantly higher trip volumes, likely driven by external factors such as tourism, weather conditions, and holiday periods. This pattern is important for operational planning, as it highlights when demand peaks and when it declines, enabling better resource allocation and forecasting.
 
+#### Question 2: What is the total revenue by month?
 
+<img src="https://github.com/user-attachments/assets/31b67071-bb5d-49ec-925d-79a2ab84df49"  width="100%" alt="Screenshot 2026-03-30 161530" />
+
+- Insight : Revenue trends across months reveal how income generation fluctuates over time and does not always align perfectly with trip volume. Months with higher revenue may reflect longer trip distances, increased pricing, or a higher proportion of premium journeys. This distinction between volume and value is critical for understanding business performance and identifying opportunities for revenue optimisation.
+
+#### Question 3: What is the average fare amount by month?
+
+<img src="https://github.com/user-attachments/assets/05241bbb-17cb-49ad-8fb9-0b9a6a8c0507" width="100%" alt="Screenshot 2026-03-30 161619" />
+
+- Insight : The average fare per month provides insight into pricing dynamics and customer usage patterns. Variations in average fare suggest differences in trip length, route types, or pricing strategies across periods. Monitoring these changes helps identify potential inefficiencies or anomalies in pricing and supports more informed decisions around fare structures and profitability.
+  
+#### Question 4: What are the most frequent pickup zones?
+
+<img src="https://github.com/user-attachments/assets/3b0e42f3-a56e-4fb5-b4ba-493d0da4a674" width="100%" alt="Screenshot 2026-03-30 162257" />
+
+- Insight : The analysis of pickup zones shows that a small number of locations account for a large proportion of total trips, indicating strong demand concentration in key areas. These high-frequency zones are likely commercial hubs, transport links, or densely populated regions. This insight is valuable for optimising driver positioning, improving service availability, and supporting location-based operational strategies.
+  
+#### Question 5: What is the trip distribution by hour of the day?
+
+<img src="https://github.com/user-attachments/assets/cb226b4c-b818-4cdf-8314-dde8d292c388" width="100%" alt="Screenshot 2026-03-30 163150"/>
+
+- Insight : Trip activity by hour highlights clear daily patterns, with peaks typically occurring during commuting hours and evening periods. These trends reflect customer behaviour and demand cycles, while off-peak hours show reduced activity. Understanding this distribution enables more effective scheduling, resource allocation, and the implementation of dynamic pricing strategies to match demand.
+
+#### Question 6: What is the distribution of payment methods?
+
+<img src="https://github.com/user-attachments/assets/c0fa331a-0def-453e-8eb9-0f4180fae8c3"  width="100%" alt="Screenshot 2026-03-30 163553"  />
+
+- Insight : The distribution of payment methods indicates customer preferences, with digital payments likely dominating over cash transactions. This reflects broader trends toward cashless systems and increased convenience. Understanding payment behaviour helps inform operational decisions, improve customer experience, and identify any unusual patterns that may require further investigation.
+  
+#### Question 7: What is the average tip amount per hour?
+
+<img src="https://github.com/user-attachments/assets/30011ffb-4c15-43cd-b0ab-d242decd6b55" width="100%" alt="Screenshot 2026-03-30 163955" />
+
+- Insight : The analysis of average tip amounts by hour shows variability throughout the day, with higher tips often occurring during peak or late hours. This may be influenced by factors such as service demand, trip type, or customer satisfaction levels. These insights are useful for understanding driver earnings and can help inform incentive structures and service quality improvements.
+  
+#### Question 8: Are there trips with suspicious or negative fares?
+
+<img src="https://github.com/user-attachments/assets/0a905d3e-8712-441c-8941-7a6838e64cc3" width="100%" alt="Screenshot 2026-03-30 164728" />
+
+- Insight : The identification of trips with negative or suspicious fare values highlights potential data quality or system issues. These anomalies could result from refunds, input errors, or processing inconsistencies. Addressing these records is essential to ensure accurate reporting and maintain trust in the data, making data validation and governance a critical component of the analytical process.
 
 
 
