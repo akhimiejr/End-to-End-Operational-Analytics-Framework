@@ -55,7 +55,20 @@ related to transportation and urban mobility.
 - VendorID: A code indicating the TPEP provider that provided the record. 1 = Creative Mobile Technologies, LLC;, 2 = Curb Mobility, LLC;, 6 = Myle Technologies Inc; 7 = Helix.
 
 # 2. Analysis
-# 2.1 END TO END WORK FLOW
+# 2.1 Project Overview
+Using Microsoft Fabric’s unified experience, this case study walks through the full analytics lifecycle:
+### 1 - Data Ingestion & Preparation
+- Download public NYC Yellow Taxi trip data
+- Upload raw files into Microsoft Fabric's One Lake Lakehouse
+- Use Data Engineering (Spark Notebooks) for data cleaning and transformation
+### 2 - Data Storage & Modeling
+- Structure data into bronze (raw), silver (cleaned), and gold (analytics-ready) layers
+- Create SQL models and views in Lakehouse & Data Warehouse
+### 3- Analytics & Visualization
+- Write SQL queries to explore trip patterns, revenue, and usage trends
+- Build Power BI dashboards that highlight KPIs, time trends, and location-based insights
+  
+# 2.2 END TO END WORK FLOW
 
 <img src="https://github.com/user-attachments/assets/1dbd3327-6466-41d4-8bb1-e72b10a3687c" width="100%" alt="Screenshot 2026-03-31 155702" />
 
